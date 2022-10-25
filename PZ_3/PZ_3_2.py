@@ -2,11 +2,11 @@
 # 2. На числовой оси расположены три точки: A,B,C. Определить, какая из двух
 # последних точек (B или C) расположена ближе к A, и вывести эту точку и ее
 # расстояние от точки A.
-a = input()
+a = input()  # ввод переменных
 b = input()
 c = input()
 
-while type(a) != int:
+while type(a) != int:  # проверка на целочисленность
     try:
         a = int(a)
     except ValueError:
@@ -27,10 +27,10 @@ while type(c) != int:
         print('Введите целое число')
         c = input()
 
-ac = abs(a - c)
+ac = abs(a - c)  # рассчеты
 ab = abs(a - b)
 
-if ac < ab:
+if ac < ab:  # проверки условий
     print('a ближе')
 if ab < ac:
     print('b ближе')

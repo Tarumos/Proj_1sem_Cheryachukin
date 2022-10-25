@@ -46,7 +46,7 @@ while type(y2) != int:
     except ValueError:
         print('Введите целое число')
         y2 = input()
-if (x1 < x < x2) and (y1 > y > y2):  # Я думаю тут все логично
+if (x1 < x < x2) and (y1 > y > y2):  # Проверка условия
     print('Водит в прямоугольник')  # Вывод результата
 else:
     print('Ну входит в прямоугольник')
