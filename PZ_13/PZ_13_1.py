@@ -12,3 +12,4 @@ for row_index in range(len(matrix)):
 
 for row in matrix:
     print(*row, sep="\t")
+# Вариант 29

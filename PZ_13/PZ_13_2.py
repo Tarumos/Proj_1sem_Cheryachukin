@@ -8,3 +8,4 @@ print()
 matrix[2] = [randint(-10, 10) for _ in range(len(matrix[2]))]
 for row in matrix:
     print(*row, sep="\t")
+# Вариант 29
